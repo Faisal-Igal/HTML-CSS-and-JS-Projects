@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>CIGE Entreprise- Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap" rel="stylesheet">
+    <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/f05d9a8c59.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logistics.png">
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>CIGE Logistics <br> A Carrier You Can Trust</h1>
+            <p>This website is currently under construction</p>
+            <a href="" class="hero-btn">Visit Us To Learn More</a>
+        </div>
+
+    </section>
+
+
+    <!-------- Services ------->
+
+    <section class="course">
+        <h1>Services We Offer</h1>
+        <p>We offer a variety of different Services to choose from.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                </div>
+                <div class="row">
+                    <div class="course-col">
+                        <h3>Post Graduation</h3>
+                        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum
+                        </p>
+                    </div>
+                </div>
+
+    </section>
+
+
+    <!------ campus ------>
+
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="Images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+    <!--------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
